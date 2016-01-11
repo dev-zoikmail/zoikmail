@@ -1,5 +1,5 @@
 {
-	"name": "dev-zoikmail/zoikmail",
+	"name": "zoikmail/zoikmail",
 	"version": "1.0.0",
 	"description": "Official Zoikmail API library client for PHP",
 	"homepage": "http://www.zoikmail.com",

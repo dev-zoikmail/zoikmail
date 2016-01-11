@@ -13,7 +13,7 @@
   "keywords": ["free", "email", "validation", "zoikmail", "service", "verification"],
 	"autoload": {
 		"psr-0": {
-			"zoikmail\\": "lib/"
+			"Zoikmail\\": "lib/"
 		}
 	},
 	"require": {

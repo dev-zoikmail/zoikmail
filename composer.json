@@ -1,0 +1,27 @@
+{
+	"name": "dev-zoikmail/zoikmail",
+	"version": "1.0.0",
+	"description": "Official Zoikmail API library client for PHP",
+	"homepage": "http://www.zoikmail.com",
+	"authors": [
+		{
+			"name": "Developer",
+			"email": "pradeep@zoikmail.com",
+			"homepage": "https://github.com/dev-zoikmail"
+		}
+	],
+  "keywords": ["free", "email", "validation", "zoikmail", "service", "verification"],
+	"autoload": {
+		"psr-0": {
+			"Zoikmail\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzle/guzzle": "3.8.*"
+	},
+	"support": {
+		"issues": "https://github.com/dev-zoikmail/zoikmail/issues"
+	},
+	"license": "MIT"
+}

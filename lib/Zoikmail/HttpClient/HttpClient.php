@@ -11,8 +11,8 @@ use Guzzle\Http\Message\RequestInterface;
 class HttpClient
 {
     protected $options = array(
-        'base'    => 'http://cleanup.zoikmail.com/secure',
-        'api_version' => 'ssl/verify/index.php',
+        'base'    => 'http://cleanup.zoikmail.com/secure/ssl/verify/index.php',
+        'api_version' => '',
         'user_agent' => 'Zoikmail (https://github.com/dev-zoikmail/zoikmail)'
     );
 

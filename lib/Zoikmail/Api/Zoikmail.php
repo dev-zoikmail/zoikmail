@@ -35,7 +35,8 @@ class Zoikmail
 
         $timeout = (isset($options['timeout']) ? $options['timeout'] : 60000);
 
-        $response = $this->client->get('?email='.rawurlencode($email).'', $body, $options);
+       // $response = $this->client->get('?email='.rawurlencode($email).'', $body, $options);
+        $response = $this->client->get('secure/ssl/verify/index.php?email='.rawurlencode($email).'&timeout='.$timeout.'', $body, $options);
 
         return $response;
     }
